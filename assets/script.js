@@ -35,4 +35,19 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
+// Initialize AOS (Animate On Scroll)
+(() => {
+  try {
+    // @ts-ignore
+    if (typeof AOS !== 'undefined') {
+      document.documentElement.classList.add('aos-supported');
+      // @ts-ignore
+      AOS.init({ once: true, duration: 700, easing: 'ease-out-cubic', offset: 80 });
+    } else {
+      document.documentElement.classList.remove('aos-supported');
+    }
+  } catch (_) {
+    document.documentElement.classList.remove('aos-supported');
+  }
+})();
 
