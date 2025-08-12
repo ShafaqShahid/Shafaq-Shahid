@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/styles.css" />
     <script type="application/ld+json">
       {
@@ -50,9 +51,9 @@
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero" data-aos="fade-up" data-aos-duration="800">
         <div class="container hero-inner">
-          <div class="hero-copy">
+          <div class="hero-copy" data-aos="fade-up" data-aos-delay="100">
             <h1 class="title">Shafaq Shahid</h1>
             <p class="subtitle">SQA Engineer • Manual, API & Automation (Playwright, Cucumber)</p>
             <div class="contact-row">
@@ -74,7 +75,7 @@
         </div>
       </section>
 
-      <section id="summary" class="section">
+      <section id="summary" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Summary</h2>
           <p>
@@ -88,11 +89,11 @@
         </div>
       </section>
 
-      <section id="skills" class="section">
+      <section id="skills" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Technical Skills</h2>
           <div class="skills-grid">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="50">
               <h3>Automation</h3>
               <ul class="tags">
                 <li>Playwright</li>
@@ -100,7 +101,7 @@
                 <li>Automation Testing</li>
               </ul>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
               <h3>Manual & Functional</h3>
               <ul class="tags">
                 <li>Functional Testing</li>
@@ -109,14 +110,14 @@
                 <li>Smoke Testing</li>
               </ul>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="150">
               <h3>API & Performance</h3>
               <ul class="tags">
                 <li>Postman</li>
                 <li>JMeter (Basics)</li>
               </ul>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
               <h3>Process & Tools</h3>
               <ul class="tags">
                 <li>Jira</li>
@@ -125,7 +126,7 @@
                 <li>CI/CD</li>
               </ul>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-delay="250">
               <h3>Data</h3>
               <ul class="tags">
                 <li>DB Testing</li>
@@ -135,11 +136,11 @@
         </div>
       </section>
 
-      <section id="experience" class="section">
+      <section id="experience" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Professional Experience</h2>
           <div class="timeline">
-            <div class="timeline-item">
+            <div class="timeline-item" data-aos="fade-right">
               <div class="timeline-dot"></div>
               <div class="timeline-content card">
                 <div class="role-row">
@@ -155,7 +156,7 @@
                 </ul>
               </div>
             </div>
-            <div class="timeline-item">
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
               <div class="timeline-dot"></div>
               <div class="timeline-content card">
                 <div class="role-row">
@@ -173,11 +174,11 @@
         </div>
       </section>
 
-      <section id="cases" class="section">
+      <section id="cases" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Case Studies</h2>
           <div class="cards">
-            <article class="card">
+            <article class="card" data-aos="zoom-in">
               <h3>SportSystems — Web E2E Automation</h3>
               <p>Built Maintainable Playwright + Cucumber test suites across major modules. Accelerated regression runs and expanded coverage of critical user journeys.</p>
               <ul class="bullets">
@@ -190,7 +191,7 @@
               </div>
               <a class="cta" href="artifacts/test-plan-sportsystems.md" target="_blank" rel="noreferrer noopener">View Test Plan</a>
             </article>
-            <article class="card">
+            <article class="card" data-aos="zoom-in" data-aos-delay="100">
               <h3>TicketManager — Enterprise QA</h3>
               <p>Delivered manual, API and integration testing for a global-scale platform used by enterprise clients.</p>
               <ul class="bullets">
@@ -207,7 +208,7 @@
         </div>
       </section>
 
-      <section id="certs" class="section">
+      <section id="certs" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Certifications</h2>
           <ul class="cert-list">
@@ -235,7 +236,7 @@
         </div>
       </section>
 
-      <section id="education" class="section">
+      <section id="education" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Education</h2>
           <div class="card">
@@ -249,32 +250,32 @@
         </div>
       </section>
 
-      <section id="artifacts" class="section">
+      <section id="artifacts" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>QA Artifacts</h2>
           <div class="cards">
-            <a class="card link-card" href="artifacts/test-plan-sportsystems.md" target="_blank" rel="noreferrer noopener">
+            <a class="card link-card" href="artifacts/test-plan-sportsystems.md" target="_blank" rel="noreferrer noopener" data-aos="zoom-in">
               <i class="ri-clipboard-line"></i>
               <div>
                 <h3>Test Plan — SportSystems</h3>
                 <p>Scope, strategy, entry/exit criteria, environments, risks.</p>
               </div>
             </a>
-            <a class="card link-card" href="artifacts/test-cases-sportsystems.md" target="_blank" rel="noreferrer noopener">
+            <a class="card link-card" href="artifacts/test-cases-sportsystems.md" target="_blank" rel="noreferrer noopener" data-aos="zoom-in" data-aos-delay="50">
               <i class="ri-list-check"></i>
               <div>
                 <h3>Test Cases — SportSystems</h3>
                 <p>Representative functional and UI/UX test cases.</p>
               </div>
             </a>
-            <a class="card link-card" href="artifacts/bug-report-ticketmanager.md" target="_blank" rel="noreferrer noopener">
+            <a class="card link-card" href="artifacts/bug-report-ticketmanager.md" target="_blank" rel="noreferrer noopener" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bug-line"></i>
               <div>
                 <h3>Bug Report — TicketManager</h3>
                 <p>Structured defect report with repro steps and impact.</p>
               </div>
             </a>
-            <a class="card link-card" href="artifacts/automation/playwright-cucumber-sample.ts" target="_blank" rel="noreferrer noopener">
+            <a class="card link-card" href="artifacts/automation/playwright-cucumber-sample.ts" target="_blank" rel="noreferrer noopener" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-code-s-slash-line"></i>
               <div>
                 <h3>Automation Sample</h3>
@@ -285,7 +286,8 @@
         </div>
       </section>
 
-      <section id="contact" class="section">
+
+      <section id="contact" class="section" data-aos="fade-up" data-aos-offset="120">
         <div class="container">
           <h2>Contact</h2>
           <div class="contact-grid">
@@ -305,6 +307,8 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="assets/script.js"></script>
   </body>
   </html>
